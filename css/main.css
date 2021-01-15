@@ -1,0 +1,37 @@
+:root{
+    --main-color:#21243D;
+}
+
+html body{
+    font-family: 'Heebo', sans-serif;
+    color:var(--main-color);
+}
+.top__line{
+    width: 100%;
+    height: auto;
+display: flex;
+    justify-content: space-between;
+}
+.top__line_logo{
+    width: 50%;
+}
+
+.top__line_logo a{
+    text-decoration: none;
+}
+
+.top__line_menu{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top__line_menu ul{
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+.top__line_menu ul li{
+
+}
