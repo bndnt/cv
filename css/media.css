@@ -9,7 +9,10 @@
 }
 
 @media (max-width: 991px) {
-    .top__line_menu {
+    .topM__line_menu {
+        display: none;
+    }
+    .top__menu {
         display: none;
     }
 

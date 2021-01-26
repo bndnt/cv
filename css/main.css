@@ -87,8 +87,18 @@ html body {
     display: flex;
     justify-content: flex-end;
 }
+.topM__line_menu {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 .top__line_menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.topM__line_menu ul {
     display: flex;
     margin: 0;
     padding: 0;
@@ -98,12 +108,19 @@ html body {
     list-style-type: none;
     margin-right: 33px;
 }
+.topM__line_menu ul li {
+    list-style-type: none;
+    margin-right: 33px;
+}
 
 .top__line_menu ul li:last-child{
     margin-right: 0;
 }
+.topM__line_menu ul li:last-child{
+    margin-right: 0;
+}
 
-.top__line_menu ul li a {
+.topM__line_menu ul li a {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -111,15 +128,35 @@ html body {
     text-align: right;
     text-decoration: none;
     transition: all 0.5s;
+    color: var(--main-color);
+}
+.topM__line_menu ul li a:hover{
+    color:var(--link-color);
+    text-decoration: none;
 }
 .top__menu{
     color: var(--main-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    text-decoration: none;
+    transition: all 0.5s;
+
 }
 .top__menu-item--active,
 .top__menu:hover{
     color:var(--link-color);
+    text-decoration: none;
 }
-
+.top__menu-item--active:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: var(--link-color);
+}
 
 .mobile__menu {
     display: none;
@@ -513,7 +550,7 @@ footer {
 .blog__item-date{
     font-size: 20px;
 }
-.work{
+.workP{
     width: 682px;
     margin:90px auto 58px;
     font-family: 'Heebo', sans-serif;
