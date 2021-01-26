@@ -538,7 +538,6 @@ footer {
     color:var( --grey-color);
     font-size: 20px;
     text-decoration: none;
-
     font-style: normal;
     font-weight: normal;
     line-height: 26px;
@@ -546,10 +545,17 @@ footer {
 .blog__item-text{
     padding-bottom:29px ;
 }
-.articles__info_date-date,
+
 .blog__item-date{
     font-size: 20px;
+    padding-right: 20px;
+    border-right: 1px solid var(--main-color);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
 }
+
+
 .workP{
     width: 682px;
     margin:90px auto 58px;
